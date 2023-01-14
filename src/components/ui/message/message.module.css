@@ -1,0 +1,30 @@
+.wrap{
+    padding: 15px 20px;
+    background-color: transparent;
+    width: 94.1%;
+    border: 1px solid #3b3b3b;
+    display: flex;
+    overflow: hidden;
+}
+.wrap:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+.avatarPerson{
+    border-radius: 50%;
+    width:65px;
+    height: 65px;
+}
+.nameAndMess{
+    color: #fff;
+    margin-left: 20px;
+    border-bottom: 1px  solid #3b3b3b;
+    width: 100%;
+    overflow: hidden;
+}
+.nameAndtime{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}

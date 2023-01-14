@@ -1,0 +1,105 @@
+.wrap{
+    background-color: #222;
+    padding: 10px 270px;
+    display: flex;
+    align-items: center;
+}
+.name{
+    color:#fff;
+    font-size: 30px;
+}
+.searchInp{
+    background-color: #424242;
+    padding: 8px 42px;
+    border-radius: 12px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.inputBox{
+    position: relative;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#79828e;
+}
+.search{
+    position: absolute;
+    left: 10px;
+}
+.photoProfile{
+    margin-left: auto;
+    margin-right: 0;
+    position: absolute;
+    right: 270px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    color: #fff;
+}
+.photoProfile:hover{
+    cursor: pointer;
+    background-color: #333333;
+}
+.photoProfile img{
+    border-radius: 50%;
+}
+.photoProfile svg{
+    margin-left: 10px;
+}
+.collapse{
+    right: 247px;
+    padding: 10px 20px;
+    margin-top: 111px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    background-color: #292929;
+    color: #fff;
+}
+.collapse:hover{
+    background-color: #3a3a3a;
+    cursor: pointer;
+}
+.collapse svg{
+    margin: 0;
+}
+.tabOfPeopleActive{
+    position: absolute;
+    top: 60px;
+    margin-left: 210px;
+    width: 280px;
+    background-color: #292929;
+    border: #484848 1px solid;
+    color: #fff;
+    z-index: 20;
+    max-height: 600px;
+}
+.tabOfPeopleActive h5{
+    margin: 10px;
+}
+.tabOfPeopleClose{
+    display: none;
+}
+.human{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.human:hover{
+    background-color: #3a3a3a;
+    cursor: pointer;
+}
+.human img{
+    border-radius: 50%;
+}
+.navLink{
+    text-decoration: none;
+}

@@ -1,0 +1,293 @@
+.box{
+    border-radius: 20px;
+    border: 1px solid #3b3b3b;
+    background-color: #222222;
+    width: 72%;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    color: #7d7d7d;
+    border-bottom: 1px solid #3b3b3b;
+}
+.optionExit{
+    display: flex;
+    padding: 5px 0px 5px 20px;
+    border-radius: 20px 0px 0px 0px;
+    align-items: center;
+    transition: .15s ease-in;
+}
+.optionExit:hover{
+    background: linear-gradient(90deg, rgba(51,51,51,1) 60%, rgba(35,35,35,1) 100%);
+}
+.optionExit:hover{
+    cursor: pointer;
+}
+.optionsName{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.optionsPhoto{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.optionsPhoto img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.optionsPhoto svg{
+    width: 25px;
+    height:25px;
+    transition: .2s ease-in-out;
+}
+.optionsPhoto svg:hover{
+    color: #919191;
+    cursor: pointer;
+}
+.messages{
+    height: 71vh;
+    padding: 0px 30px 0px 30px;
+    overflow-y: auto;
+}
+.messages::-webkit-scrollbar{
+    width: 0px;
+}
+.enterMessage{
+    padding: 20px 25px;
+    border-top: 1px solid #3b3b3b;
+    background-color: #292929;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    align-items: center;
+    color: #b8b9bc;
+}
+.enterMessage svg{
+    width: 30px;
+    height: 30px;
+}
+.enterMessage svg:hover{
+    color: #c8c9cb;
+    cursor: pointer;
+}
+.enterMessageInput{
+    background-color: transparent;
+    border: none;
+    border-right: none;
+    outline: none;
+    border-radius: 8px 0px 0px 8px;
+    font-size: 17px;
+    color: #fff;
+    width: 90%;
+    resize: none;
+    overflow-y: hidden;
+}
+.enterMessageInside{
+    padding: 12px;
+    border: 1px solid #3b3b3b;
+    border-radius: 8px;
+    display: flex;
+    width: 90%;
+    align-items: center;
+}
+.iconInInput{
+   /*/ margin-left: -80px;/*/
+    color: #b8b9bc;
+    display: flex;
+    gap: 10px;
+}
+.enterMessageSend{
+    margin-left: 30px;
+}
+.forInputFile{
+    position: relative;
+}
+.forInputFile input[type=file] {
+	position: absolute;
+    margin-top: -34px;
+    background-color: transparent;
+    border: none;
+    z-index: 5;
+    opacity: 0;
+    display: block;
+    width: 26px;
+    height: 26px;
+}
+.forInputFile input[type=file]:hover{
+    cursor: pointer;
+}
+.forInputFile input[type=file]:hover .forInputFile svg{
+    color: #c8c9cb;
+    cursor: pointer;
+}
+.iconInInput input[type=file]:focus + button {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.divImg{
+    display: flex;
+    gap: 15px;
+    background-color: #292929;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -20px;
+    padding: 20px 25px;
+}
+
+.messageWrap{
+    margin: 20px 0px 20px 0px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+.closeIcon{
+    opacity: 0;
+    color: rgb(164, 164, 164);
+    margin-left: -40px;
+    transition: .1s ease-in-out;
+}
+.closeIcon:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.messageWrap:hover .closeIcon{
+    opacity: 1;
+}
+.nameAndTime{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+.message{
+    display: flex;
+    gap: 10px;
+    width: 600px;
+    word-wrap: break-word;
+}
+.messageImg{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 55px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.messageImg img{
+    width: 45%;
+    height: 45%;
+}
+.messageVal{
+    word-wrap: break-word;
+    display: inline-block;
+    width: 477px;
+}
+.message img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    
+}
+.forDelete{
+    position: relative;
+    width: 25%;
+}
+.forDelete img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.delete{
+    right: 0;
+    top: 0;
+    padding: 3px 5px;
+    background-color: #020200a7;
+    position: absolute;
+    margin-left: 2px;
+    z-index: 100;
+}
+.delete:hover{
+    background-color: #000000ac;
+    cursor: pointer;
+}
+.delete:hover svg{
+    color: #fff;
+}
+.delete svg{
+    color: rgb(220, 220, 220);
+    width: 10px;
+    height: 10px;
+}
+.tipForDelete{
+    position: absolute;
+    display: inline;
+    width: 250px;
+    text-align: center;
+    color: #fff;
+    top: 50px;
+    transition: .1s ease-in-out;
+    right: 0px;
+    padding: 3px 5px;
+    border-radius: 15px;
+    border: 1px solid #3b3b3b;
+    background-color: #484848;
+}
+.popUpDel{
+    border-radius: 15px;
+    position: absolute;
+    color: #fff;
+    background-color: #292929;
+    width: 600px;
+    right: 0;
+    vertical-align: middle;
+    top: 25%;
+    left: 0;
+    margin: auto;
+    z-index: 100;
+}
+.popUpDel svg:hover {
+    cursor: pointer;
+    color: rgb(182, 181, 181);
+}
+.deletDiv{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px 15px 30px;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.deletDiv div{
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.deletDiv div:hover{
+    background-color: #5e5e5e;
+    cursor: pointer;
+}
+.deletDiv button{
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    outline: none;
+    padding: 9px 12px;
+    font-size: 15px;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+.deletDiv button:hover{
+    background-color: rgb(182, 181, 181);
+}
+.blurPop{
+    width: 98.86vw;
+    height: 106vh;
+    background-color: #0606068a;
+    z-index: 60;
+   position: absolute;
+   margin-left: -510px;
+   margin-top: -96px;
+}

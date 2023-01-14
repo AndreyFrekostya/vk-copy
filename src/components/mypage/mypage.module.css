@@ -1,0 +1,296 @@
+.wrap{
+    width: 80%;
+    margin-top: 170px;
+    margin-left: 10px;
+}
+.firstRow{
+    padding: 20px;
+    display: flex;
+    position: relative;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #222;
+}
+.setAvatar{
+    opacity: 0;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: rgba(66, 65, 65, 0.68);
+    margin-top: -114.5px;
+    margin-left: 5px;
+    z-index: 10;
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.setAvatar input {
+	position: absolute;
+    background-color: transparent;
+    border: none;
+	z-index: 5;
+	opacity: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.setAvatar input:hover{
+    cursor: pointer;
+}
+.setAvatar div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.setAvatar:hover{
+    background-color: rgba(66, 65, 65, 0.68);
+    opacity: 1;
+    cursor: pointer;
+}
+.firstRow img{
+    width: 150px;
+    height: 150px;
+    top: -100px;
+    border-radius: 50%;
+    position: absolute;
+    border: 5px solid #222;
+}
+.firstRow img:hover{
+    background-image: rgba(66, 65, 65, 0.68);
+}
+.name{
+    color: #fff;
+    margin-left: 170px;
+}
+.images{
+    padding: 25px;
+    border: 1px solid #333;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #222;
+}
+.images img:first-child{
+    margin-left: 0px;
+}
+.images img{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.buttons button {
+    padding: 10px 30px;
+    width: 50%;
+    border-radius: 8px;
+    background-color: #424242;
+    border: 1px solid #2b2b2b;
+    color: #fff;
+    font-size: 20px;
+    transition: .2s ease-in-out;
+}
+.buttons div{
+    width: 50%;
+}
+.buttons div button{
+    width: 100%;
+}
+.buttons button:hover{
+    background-color: #5c5b5b ;
+    cursor: pointer;
+}
+.buttons input:hover{
+    background-color: #5c5b5b ;
+    cursor: pointer;
+}
+.addPostsfirstRow{
+    
+    display: flex;
+    align-items: center;
+}
+.addposts{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 15px;
+}
+.prevImgSmotr{
+    margin-top: 20px;
+}
+.prevImgSmotr img{
+    width: 150px;
+    height: 150px;
+    border-radius: 0px;
+}
+.imgPostUnic{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 0px;
+}
+.addPostsfirstRow img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.addposts input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 100%;
+}
+.setPost{
+    padding: 10px 20px;
+    background-color: #fff;
+    outline: none;
+    border:1px solid #333;
+    font-size: 15px;
+    border-radius: 15px;
+    transition: .2s ease-in-out;
+}
+.setPost:hover{
+    background-color: rgba(194, 194, 194, 0.753);
+    cursor: pointer;
+}
+.delete{
+    margin: 0;
+    padding: 10px;
+    border-radius: 15px;
+   display: inline-block;
+   transition: .1s ease-in-out;
+}
+.delete:hover{
+    background-color: rgb(77, 76, 76);
+    cursor: pointer;
+}
+.post{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 15px;
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.maininf img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.maininf{
+    display: flex;
+    align-items: center;
+}
+.maininf div{
+    margin-left: 20px;
+}
+/*/input file/*/
+.inputfile {
+	position: relative;
+	display: inline-block;
+}
+.inputfile button {
+	padding: 10px 75px;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #424242;
+    border: 1px solid #2b2b2b;
+    color: #fff;
+    font-size: 20px;
+    transition: .2s ease-in-out;
+}
+.inputfile input[type=file] {
+	position: absolute;
+	z-index: 5;
+	opacity: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+ 
+/* Focus */
+.inputfile input[type=file]:focus + button {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+ 
+/* Hover/active */
+.inputfile:hover button {
+	background-color: #5c5b5b ;
+    cursor: pointer;
+}
+.online{
+    width: 13px;
+    height: 13px;
+    background-color: #4bb34b;
+    border-radius: 50%;
+    border: 5px solid #222;
+    z-index: 10;
+    position: absolute;
+    left:145px;
+    top: 25px;
+}
+.addimgDiv{
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .1s ease-in-out;
+    position: relative;
+}
+.addimgDiv:hover{
+    background-color: #333;
+}
+.addIMG{
+    color: #fff;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+}
+.addimgDiv input {
+	position: absolute;
+    background-color: transparent;
+    border: none;
+	z-index: 5;
+	opacity: 0;
+	display: block;
+	left: -10px;
+    width: 30px;
+    height: 30px;
+}
+.setPrivatePr{
+    margin-left: 296px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    align-items: center;
+    padding: 0;
+}
+.optionProf:hover{
+    cursor: pointer;
+}
+.setPrivateoption{
+    position: absolute;
+    left: 97px;
+    top: 45px;
+    padding: 0px 5px;
+    background-color: #333;
+    border-radius:15px ;
+    border: 1px solid #333;
+}
+.setPrivateoption h6:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,80 @@
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    background-color: #19191a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    color: #fff;
+    border: 1px solid #242425;
+    border-radius: 20px;
+    width: 1000px;
+    overflow: hidden;
+}
+.prevBox{
+    padding: 30px 60px 30px 30px;
+    width: 40%;
+    border-radius: 20px 0px 0px 20px;
+    background-color: #232324;
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.id{
+    display: flex;
+    align-items: center;
+}
+.id h3{
+    font-size: 22px;
+}
+.infWithIcon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: 300;
+    color: #909499;
+}
+.infWithIcon svg{
+    width: 55px;
+    height: 55px;
+}
+.box{
+    width: 450px;
+    height: 550px;
+    text-align: center;
+    width: 50%;
+    padding: 30px;
+    overflow-y: scroll;
+    
+}
+.box button:disabled {
+    background-color: rgba(179, 179, 179, 0.457);
+}
+.forlabel{
+    margin-top: 10px;
+}
+
+.input{
+    border-radius: 15px;
+    border: none;
+    background-color: #303846;
+    width: 85%;
+    margin-top: 5px;
+    font-size: 18px;
+    color:#fff;
+    outline: none;
+    padding: 15px 20px;
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+}

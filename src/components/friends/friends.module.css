@@ -1,0 +1,105 @@
+.wrap{
+    display: flex;
+    gap: 15px;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+.main{
+    padding: 20px ;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #222;
+    width: 100%;
+    min-width: 700px;
+}
+.firstRow{
+    padding: 1px;
+    background-color: #333;
+    border: 1px solid #474747;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    cursor: pointer;
+}
+.firstRow:hover{
+    background-color: rgb(121, 119, 119);
+}
+.input{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.input input{
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    border-left:1px solid #5c5c5c;
+    border-top: 1px solid #5c5c5c;
+    border-bottom: 1px solid #5c5c5c;
+    border-right: none;
+    outline: none;
+    border-radius: 8px 0px 0px 8px;
+    width: 87.6%;
+    font-size: 16px;
+}
+.search{
+    padding: 7.5px 20px;
+    background-color: #424242;
+    border-radius: 0px 8px 8px 0px;
+    border-top: 1px solid #5c5c5c;
+    border-bottom: 1px solid #5c5c5c;
+    border-right: 1px solid #5c5c5c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search svg{
+    color: #909090;
+}
+.search:hover{
+    cursor: pointer;
+}
+.options{
+    padding: 0px 10px 10px 10px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #222;
+    width: 100%;
+}
+.option{
+   cursor: pointer;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.forAppl{
+    display: flex;
+    gap: 20px;
+}
+.user{
+    padding: 10px;
+    border-bottom: 1px solid #5c5c5c;
+    margin-top: 15px;
+}
+.user img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.userInf{
+    display: flex;
+    gap: 15px;
+}
+.delete button{
+    padding:8px 13px;
+    background-color: #e1e3e6;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid #565657 ;
+    font-size: 17px;
+}
+.delete button{
+    cursor: pointer;
+}

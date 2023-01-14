@@ -1,0 +1,91 @@
+.wrap{
+    margin-top: 35px;
+    margin-left: 15px;
+    display: flex;
+    gap: 15px;
+}
+.allMess{
+    min-width: 700px;
+    background-color: #222222;
+    border-radius: 20px 20px 0px 0px;
+}
+.input{
+    background-color: transparent;
+    width: 88%;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid #3b3b3b;
+    padding: 20px 50px;
+    outline: none;
+}
+.inputWrap{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.inputWrap svg{
+    position: absolute;
+    left: 12px;
+    width: 30px;
+    height: 30px;
+    color: #3b3b3b;
+}
+.filterUser{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-bottom: 1px  solid #3b3b3b;
+    border-left: 1px  solid #3b3b3b;
+    border-right: 1px  solid #3b3b3b;
+    padding: 10px 20px ;
+}
+.filterUser:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+.filterUser img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.whichOpen{
+    padding: 10px 15px;
+    border: 1px  solid #3b3b3b;
+    background-color: #222222;
+    border-radius: 20px;
+    width: 340px;
+}
+.optionsOpen{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    border-bottom: 1px  solid #3b3b3b;
+}
+.optionOpen{
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+.optionOpen:hover{
+    cursor: pointer;
+    background-color: #333;
+}
+.openUsers{
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.openUsers:hover{
+    cursor: pointer;
+    background-color: #333;
+}
+.close{
+    color: rgb(86, 86, 86);
+}
+.close:hover{
+    color: rgb(121, 121, 121);
+}

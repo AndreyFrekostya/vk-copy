@@ -1,0 +1,13 @@
+.wrap{
+ background-color: #141414;
+ padding:0px 255px;
+ display: flex;
+}
+.allwrap{
+    background-color: #141414;
+    min-height: 100vh;
+}
+.outlet{
+    margin-left: 10px;
+    width: 100%;
+}
