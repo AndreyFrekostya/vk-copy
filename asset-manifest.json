@@ -1,17 +1,13 @@
 {
   "files": {
-    "main.css": "/vk-copy/static/css/main.b35e7ca7.css",
-    "main.js": "/vk-copy/static/js/main.fad9f9df.js",
-    "static/media/phones.png": "/vk-copy/static/media/phones.60c678d6d6a3cd6d250e.png",
-    "static/media/defaultAvatar.png": "/vk-copy/static/media/defaultAvatar.797810ee6fe29ccbeefc.png",
-    "static/media/vk_icon.png": "/vk-copy/static/media/vk_icon.ca5a368b3c76561c478e.png",
-    "static/media/vk-icon.png": "/vk-copy/static/media/vk-icon.fd221e5c3c52addc3287.png",
-    "index.html": "/vk-copy/index.html",
-    "main.b35e7ca7.css.map": "/vk-copy/static/css/main.b35e7ca7.css.map",
-    "main.fad9f9df.js.map": "/vk-copy/static/js/main.fad9f9df.js.map"
+    "main.css": "/leaflet/static/css/main.b5434f94.css",
+    "main.js": "/leaflet/static/js/main.5eced7df.js",
+    "index.html": "/leaflet/index.html",
+    "main.b5434f94.css.map": "/leaflet/static/css/main.b5434f94.css.map",
+    "main.5eced7df.js.map": "/leaflet/static/js/main.5eced7df.js.map"
   },
   "entrypoints": [
-    "static/css/main.b35e7ca7.css",
-    "static/js/main.fad9f9df.js"
+    "static/css/main.b5434f94.css",
+    "static/js/main.5eced7df.js"
   ]
 }
